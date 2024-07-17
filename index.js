@@ -7,6 +7,7 @@ const app = express();
 const port = 3000;
 const saltRounds=10;
 
+//Add your own PostgresSQL admin details
 const db = new pg.Client({
   user: "postgres",
   host: "localhost",
